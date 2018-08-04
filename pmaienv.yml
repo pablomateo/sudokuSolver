@@ -97,4 +97,3 @@ dependencies:
     - requests-toolbelt==0.8.0
     - udacity-pa==0.2.8
     - z3-solver==4.5.1.0.post2
-prefix: /Users/pablomateofdez/anaconda3/envs/aind
