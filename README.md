@@ -25,7 +25,7 @@ Make sure you have python3 installed in your computer. Follow the onscreen instr
 --------------------------------------------------------------------
 
 ## Project Requirements
-To fully test the project, you might need to install some required packages. Please start by downloading **Anaconda**, Python´s Data Science Platform using the following link: [Download Anaconda](https://www.continuum.io/downloads).
+To fully test the project, you might need to install some required packages. Please start by downloading **Anaconda**,         Python´s Data Science Platform using the following link: [Download Anaconda](https://www.continuum.io/downloads).
 Once installed, clone this repository and access the downloaded folder. Next, you need to install the required packages:
 
     $ conda env create -f pmaienv.yml
