@@ -1,10 +1,12 @@
 # sudokuSolver
 
-Udacity - Artificial Intelligence Nanodegree Program
+**Udacity - Artificial Intelligence Nanodegree Program**
 
 Solve a Sudoku
 
 # Solve Sudoku with AI
+
+This project is part of **Udacity´s Artificial Intelligence Nanodegree Program**. Here you will find my personal solution to the challenge. I first explain how you can download it and test it. Next, I have added Udacity´s original instructions for submitting the finished project.
 
 ## Synopsis
 
@@ -20,6 +22,23 @@ In order to run the project, open a **terminal** window and type:
 
 Make sure you have python3 installed in your computer. Follow the onscreen instructions to solve any Sudoku.
 
+--------------------------------------------------------------------
+
+## Project Requirements
+To fully test the project, you might need to install some required packages. Please start by downloading **Anaconda**, Python´s Data Science Platform using the following link: [Download Anaconda](https://www.continuum.io/downloads).
+Once installed, clone this repository and access the downloaded folder. Next, you need to install the required packages:
+
+    $ conda env create -f pmaienv.yml
+    
+Once all the packaged have been installed, activate the environment:
+
+    $ source activate pmaienv
+    
+Once finished, you can run the project
+
+    $ python3 personal_solution.py
+
+--------------------------------------------------------------------
 --------------------------------------------------------------------
 
 ## Instructions - Udacity Project
