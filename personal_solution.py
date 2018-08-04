@@ -233,43 +233,43 @@ def solve(grid):
 
 if __name__ == "__main__":
 
-    print("Vamos a resolver un Sudoku")
-    print("Indica si quieres resolver un Sudoku diagonal escribiendo SI o NO: ")
-    print("     Un Sudoku Diagonal es aquel en el que en sus diagonales largas no se repite ningun numero")
-    print("     ADVERTENCIA: No todos los Sudokus pueden resolverse en Diagonal")
-    diagonalSudoku = input("Lo quieres Diagonal: ")
+    print("Lets solve a Sudoku")
+    print("Please indicate if you want to solve a Diagonal Sudoku by writing YES (only if you are sure). If not, please write NO: ")
+    print("     A Diagonal Sudoku has its large diagonals with no repeating numbers")
+    print("     IMPORTANT: Most Sudokus are not diagonal. Trying to solve it as so will result in an error")
+    diagonalSudoku = input("Is it Diagonal?: ")
 
-    if diagonalSudoku == "SI":
+    if diagonalSudoku == "YES":
         diagonal_units = [calculateDiagonalUnits(False), calculateDiagonalUnits(True)]
         unitlist = unitlist + diagonal_units
-        print("Muchas gracias. Procedemos a resolver un Sudoku Diagonal")
+        print("Thank you very much. We will try and solve a Diagonal Sudoku!")
     else:
-        print("Perfecto. Procedemos a resolver un Sudoku normal")
+        print("Thank you very much.")
 
     print(" ")
-    print("Para resolver el Sudoku, sigue las siguientes instrucciones")
-    print("Debes escribir los valores del Sudoku de izquierda a derecha y de arriba abajo sin espacios")
-    print("     Si en un cuadrado del Sudoku hay un espacio en blanco, escribe . (un punto)")
+    print("To solve a Sudoku, please follow the next instructions")
+    print("You must write the values of the unsolved Sudoku from left to right and up to down without blank spaces")
+    print("     If one of the squares has a number, write it down, if it is blank, write a dot . ( . )")
     print(" ")
-    print("Si tu Sudoku es asi: ")
+    print("For example, if you see this Sudoku: ")
     print(" ")
     display(gridExample('2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'))
     print(" ")
-    print("Debes escribir algo tipo esto: ")
+    print("You must input this: ")
     print("2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3")
-    print("Una vez entendidas las instrucciones, comencemos.")
-    sudokuAResolver = input("Por favor introduce los valores del Sudoku como en el ejemplo: ")
+    print("If you understood the instructions, lets proceed.")
+    sudokuAResolver = input("Please write your Sudoku in the format explained in the previous instructions: ")
     print(" ")
     print("############################################################")
 
 
     diag_sudoku_grid = sudokuAResolver
 
-    print("SUDOKU A RESOLVER: ")
+    print("UNSOLVED SUDOKU: ")
     display(gridExample(diag_sudoku_grid))
     result = solve(diag_sudoku_grid)
     print(" ")
-    print("SUDOKU RESUELTO: ")
+    print("SOLVED SUDOKU: ")
     display(result)
     print("############################################################")
 
