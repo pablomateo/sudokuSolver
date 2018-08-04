@@ -35,7 +35,7 @@ Once all the packages have been installed, activate the environment:
     
 Once finished, you can run the project
 
-    $ python3 personal_solution.py
+    (pmaienv)$ python3 personal_solution.py
 
 --------------------------------------------------------------------
 --------------------------------------------------------------------
