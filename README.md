@@ -1,6 +1,6 @@
 # sudokuSolver
 
-Udacity Artificial Intelligence Nanodegree Program
+Udacity - Artificial Intelligence Nanodegree Program
 
 Solve a Sudoku
 
@@ -12,21 +12,17 @@ In this project, students will extend the Sudoku-solving agent developed in the 
 
 ## Personal vs Submitted Project
 
-I have added both the submitted required project and a personal version of it.
-
-To run the personal version, just clone this repository and access the downloaded folder.
+I have added both the submitted required project and a personal version of it. To run the personal version, just clone this repository and access the downloaded folder.
 
 In order to run the project, open a **terminal** window and type:
 
     $ python3 personal_solution.py
 
-Make sure you have python3 installed in your computer.
-
-Follow the onscreen instructions to solve any Sudoku.
+Make sure you have python3 installed in your computer. Follow the onscreen instructions to solve any Sudoku.
 
 --------------------------------------------------------------------
 
-## Instructions
+## Instructions - Udacity Project
 
 Follow the instructions in the classroom lesson to install and configure the AIND [Anaconda](https://www.continuum.io/downloads) environment. That environment includes several important packages that are used for the project. 
 
