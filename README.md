@@ -6,7 +6,7 @@ Solve a Sudoku
 
 # Solve Sudoku with AI
 
-This project is part of **Udacity´s Artificial Intelligence Nanodegree Program**. Here you will find my personal solution to the challenge. I first explain how you can download it and test it. Next, I have added Udacity´s original instructions for submitting the finished project.
+This project is part of **Udacity´s Artificial Intelligence Nanodegree Program**. Here you will find my personal solution to the challenge. I first explain how you can download it and test it. Next, I have added Udacity´s original instructions for completing the project.
 
 ## Synopsis
 
@@ -25,12 +25,11 @@ Make sure you have python3 installed in your computer. Follow the onscreen instr
 --------------------------------------------------------------------
 
 ## Project Requirements
-To fully test the project, you might need to install some required packages. Please start by downloading **Anaconda**,         Python´s Data Science Platform using the following link: [Download Anaconda](https://www.continuum.io/downloads).
-Once installed, clone this repository and access the downloaded folder. Next, you need to install the required packages:
+To fully test the project, you might need to install some required packages. Please start by downloading **Anaconda** using the following link: [Download Anaconda](https://www.continuum.io/downloads). Once installed, clone this repository and access the downloaded folder through a **terminal** window. Next, you need to install the required packages:
 
     $ conda env create -f pmaienv.yml
     
-Once all the packaged have been installed, activate the environment:
+Once all the packages have been installed, activate the environment:
 
     $ source activate pmaienv
     
