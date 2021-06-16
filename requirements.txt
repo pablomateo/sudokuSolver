@@ -50,12 +50,12 @@ pandocfilters=1.4.1=py36_0
 path.py=10.1=py36_0
 pexpect=4.2.1=py36_0
 pickleshare=0.7.4=py36_0
-pip=9.0.1=py36_1
+pip>=19.2=py36_1
 prompt_toolkit=1.0.13=py36_0
 ptyprocess=0.5.1=py36_0
-py=1.4.32=py36_0
+py>=1.10.0=py36_0
 pycparser=2.18=py36h724b2fc_1
-pygments=2.2.0=py36_0
+pygments>=2.7.4=py36_0
 pyopenssl=17.4.0=py36ha82324b_0
 pyparsing=2.1.4=py36_0
 pyqt=5.6.0=py36_2
@@ -64,7 +64,7 @@ pytest=3.0.7=py36_0
 python=3.6.0=0
 python-dateutil=2.6.0=py36_0
 pytz=2016.10=py36_0
-pyyaml=3.12=py36h2ba1e63_1
+PyYAML>=5.4=py36h2ba1e63_1
 pyzmq=16.0.2=py36_0
 qt=5.6.2=0
 qtconsole=4.2.1=py36_1
